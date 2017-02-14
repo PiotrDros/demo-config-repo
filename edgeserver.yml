@@ -5,4 +5,4 @@ jwt:
 zuul:
   externalServicesRegEx: ^\/wicar.*
   host:
-    socket-timeout-millis: 5000
+    socket-timeout-millis: 15000

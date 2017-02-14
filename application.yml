@@ -17,3 +17,11 @@ edge_server:
       
 wicar:
   url: http://localhost:9020      
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000

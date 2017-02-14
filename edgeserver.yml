@@ -6,3 +6,10 @@ zuul:
   externalServicesRegEx: ^\/wicar.*
   host:
     socket-timeout-millis: 15000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000

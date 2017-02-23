@@ -3,5 +3,3 @@ daimler:
 dm: 
   software:
     uri: http://path.to.the.software.service.endpoint
-
-	

@@ -1,0 +1,7 @@
+daimler:
+  uri: http://path.to.the.daimler.service.endpoint
+dm: 
+  software:
+    uri: http://path.to.the.software.service.endpoint
+
+	

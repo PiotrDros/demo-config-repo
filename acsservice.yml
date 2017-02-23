@@ -3,3 +3,9 @@ daimler:
 dm: 
   software:
     uri: http://path.to.the.software.service.endpoint
+adapterConfigurationPU:
+  datasource:
+    url: jdbc:h2:mem:mydb
+download:
+  endpoint:
+    uri: http://localhost:8080/acsservice/download/

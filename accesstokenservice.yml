@@ -1,0 +1,12 @@
+server:
+  port: 8770
+
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+      
+opus:
+  basicauth:
+    username: amaresh.venkappa@mindtree.com
+    password: Fleet123

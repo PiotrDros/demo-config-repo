@@ -1,0 +1,6 @@
+zuul:
+  routes:
+    wicarservice:
+      path: /wicar/**
+      sensitiveHeaders: Cookie,Set-Cookie
+      url: http://172.30.216.99:8080
